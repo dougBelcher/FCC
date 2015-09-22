@@ -1,0 +1,56 @@
+html, body { height: 100%; }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('http://i.imgur.com/FX3OeLk.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.relative {
+  position: relative;
+}
+
+.zipweather {
+  border-top: 5px solid #444;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+.zipweather + h2 {
+  margin-bottom: 50px;
+}
+
+#target-weather-location {
+  font-size: 1.25em !important;
+}
+
+.container {
+  color: white;
+  background: #222;
+  border: 5px solid #444;
+  border-radius: 10px;
+}
+
+.form {
+  color: #444;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget {
+  height: 340px;
+  padding-top: 40px !important;
+  padding-bottom: 35px !important;
+  position: relative;
+}
+
+.description {
+  position: absolute;
+  color: white;  
+  padding-right: 40px;
+}

@@ -1,0 +1,6 @@
+document.getElementById("demo").innerHTML =
+
+Returns true if input is an array
+function isArray(myArray) {
+    return myArray.constructor.toString().indexOf("Array") > -1;
+}

@@ -1,0 +1,21 @@
+h1 {
+		font-family: oswald;
+}
+
+.top-margin {
+	margin-top: 5px;
+}
+
+.timer-text {
+		font-family: pt mono;
+		font-size: 200%;
+}
+
+.vertical-center {
+		min-height: 100%;
+		min-height: 100vh;
+		display: flex;
+		/* align-items: center; */
+		justify-content: center;
+		flex-direction: column;
+}

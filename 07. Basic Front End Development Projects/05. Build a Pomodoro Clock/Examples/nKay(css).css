@@ -1,0 +1,92 @@
+body {
+  font-family: Roboto;
+}
+/* Horizontal alignment */
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header > h2 {
+  color: #FFF;
+  font-size: 50px;
+  margin: 0;
+  background: #455A64;
+  line-height: 2;
+}
+
+.selectors {
+  color: white;
+  padding: 15px;
+  background: #607D8B;
+  user-select: none;
+}
+
+.selectors > .selector {
+  display: inline-block;
+  padding: 0 20px;
+  ;
+}
+
+.selectors p {
+  margin: 0;
+}
+
+.selectors i:hover {
+  cursor: pointer;
+}
+
+.clock {
+  overflow: hidden;
+  position: relative;
+  margin-top: 100px;
+  width: 400px;
+  border-radius: 50%;
+  border: 5px solid #FFF;
+  box-shadow: 0 0 0 5px #CFD8DC;
+  color: #212121;
+  user-select: none;
+}
+
+.clock:before {
+  display: block;
+  content: "";
+  padding-top: 100%;
+}
+
+.clock > .inner{
+  position: absolute;
+  font-size: 2em;
+}
+
+.clock > .top{
+  top: 15%;
+  left: 0;
+  right: 0;
+}
+
+.clock > .bottom{
+  bottom: 15%;
+  left: 0;
+  right: 0;
+}
+
+.clock > .clock-background {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 90%;
+  background-color: #CFD8DC;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.clock:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 720px) {
+  .clock {
+    width: 90%;
+  }
+}

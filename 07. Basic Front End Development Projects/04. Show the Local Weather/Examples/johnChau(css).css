@@ -1,0 +1,96 @@
+body {
+    background: #b0c4de url(http://www.hdwallpapersnew.net/wp-content/uploads/2015/06/awesome-norway-prekestolen-wallpaper-photos-for-desktop-background-free.jpg);
+  background-size: cover;
+}
+#sky{
+border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+    background: #ffffff;
+    opacity: 0.8;
+    margin: 5px;
+    padding: 1%;
+}
+#skyImage{
+  border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+    background: #ffffff;
+    opacity: 0.8;
+    margin: 5px;
+    padding: 1%;
+    display: inline-block;
+}
+#temp{
+  border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+    background: #ffffff;
+    opacity: 0.8;
+    margin: 5px;
+    padding: 1%;
+    display: inline-block;
+}
+#wind{
+  border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+    background: #ffffff;
+    opacity: 0.8;
+    margin: 5px;
+    padding: 1%;
+    display: inline-block;
+}
+#zipcode{
+  border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+    background: #ffffff;
+    opacity: 0.8;
+    margin: 5px;
+    padding: 1%;
+    display: inline-block;
+}
+#state{
+  border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+    background: #ffffff;
+    opacity: 0.8;
+    margin: 5px;
+    padding: 1%;
+    display: inline-block;
+}
+#city{
+  border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+    background: #ffffff;
+    opacity: 0.8;
+    margin: 5px;
+    padding: 1%;
+    display: inline-block;
+}
+#bottom{margin-bottom: 15px;
+font-size: 20px;
+  font-family: Serifs;
+
+color:green;}
+
+
+.both {
+  text-align: center;
+}
+
+#top {
+  font-size: 40px;
+  font-family: Geneva;
+  margin-bottom: 10px;
+  color:red;
+  
+    box-shadow: 2px 2px 10px black;
+    background: #ffffff;
+    opacity: 0.8;
+    padding: 1%;
+    display: inline-block;
+}
+
+.container{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  text-align:center;
+}

@@ -1,0 +1,68 @@
+body {
+  background: url(http://i.imgur.com/n7CMYxZ.png);
+  color: white;
+}
+.timerDiv {
+  font-size: 150px;
+
+}
+
+.controPomo {
+ 
+}
+
+.controlBreak {
+}
+
+#pomoSet {
+  font-size: 50px;
+  position: relative;
+  top: -175px;
+  left: 75px;
+}
+
+#breakSet {
+  font-size: 50px;
+  position: relative;
+  top: -175px;
+  left: 25px;
+}
+
+.beginPomoButton {
+  position: relative;
+  top: -195px;
+  left: 243px;
+}
+
+.resetButton {
+  position: relative;
+  top: -375px;
+  left: 155px;
+}
+
+.startBreakButton {
+  position: relative;
+  top: -195px;
+  left: -38px;
+}
+
+#lessPomo {
+  position: relative;
+  top: -115px;
+  left: 170px;
+}
+#morePomo {
+  position: relative;
+  top: -115px;
+  left: -12px
+}
+#lessBreak {
+  position: relative;
+  top: -115px;
+  left: 115px;
+}
+#moreBreak {
+  position: relative;
+  top: -115px;
+  left: -86px;
+}

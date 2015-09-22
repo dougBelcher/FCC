@@ -1,0 +1,43 @@
+body {								/* Sets a grey background */
+  background-color: #222;			/* dark grey			  */
+  color:#ddd;						/* light grey			  */
+}
+#stopWatch {						/* Creates circle with pointer cursor */
+  border:2px solid #444;			/* dark grey */
+  border-radius:50%;
+  height:200px;
+  width:200px;
+  margin:20px auto;
+  padding:20px;
+  cursor:pointer;
+}
+#stopWatch.session.running {			/* Work session running */
+  border: 2px solid #464;			/* dark green */
+  color: #7d7;						/* light green */
+}
+#stopWatch.break.running {			/* Break session running */
+  border: 2px solid #166;			/* blue green    */
+  color: #28E8EA;					/* light blue */
+}
+#options {
+  height:100px;
+  width:460px;
+  margin:auto;
+}
+#options .option {
+
+  height:100px;
+  width:160px;
+  padding:10px;
+}
+#sessTime, #brkTime {
+  display:inline;
+  padding:20px;
+  font-size: 1.8rem;
+}
+#resetContainer {
+  width:100px;
+  margin:auto;
+  display:inline-block;
+  margin-top:60px;
+}

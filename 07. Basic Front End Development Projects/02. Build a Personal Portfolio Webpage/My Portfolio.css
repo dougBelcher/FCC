@@ -1,0 +1,82 @@
+  body {
+      position: relative; 
+  }
+h3 {
+  font-weight: 700
+}
+  .smaller-image {
+    border-radius: 100px;
+  }
+.blue-text {
+  color: blue;
+  font-size: 20px;
+  font-weight: 500;
+}
+.red-text {
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+}
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: 800;
+    width: 120px;
+    margin: 5px;
+    color: blue;
+}
+
+#Home{
+  min-height: 750px;
+  padding:35px;
+  text-align:right;
+  background-image: url('http://i.imgur.com/qUuaoRN.jpg');
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+#About{
+  min-height: 750px;
+  padding:30px;
+  text-align:center;
+  background-image: url('http://i.imgur.com/pmNx0.jpg');
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+#Portfolio{
+  min-height: 750px;
+  padding:50px;
+  text-align:center;
+  background-image: url('http://i.imgur.com/eFy8mpl.jpg');
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+#Contact{
+  min-height: 750px;
+  padding:30px;
+  text-align:center;
+  background-image: url('http://i.imgur.com/KM8Qgsd.jpg');
+  background-size: cover;
+  background-attachment:fixed;
+}

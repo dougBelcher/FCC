@@ -1,0 +1,25 @@
+index.html
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Vanishing Act</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+        <script type='text/javascript' src='script.js'></script>
+	</head>
+	<body>
+        <div></div>   
+	</body>
+</html>
+
+stylesheet.css
+div {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #ABCDEF;
+}
+
+script.js
+$(document).ready(function() {
+    $("div").hide();
+});

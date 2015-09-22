@@ -1,0 +1,33 @@
+<div class="container vertical-center">
+		<div class="jumbotron">
+
+				<h1 class="text-center">Pomodoro Timer</h1>
+				<hr>
+				<h1 class="timer-text text-center" id="time-text"></h1>
+
+				<div class="btn-group-justify">
+						<button class="btn col-xs-6 col-sm-6 col-md-6 col-lg-6 btn-default active" id="workBtn">Switch to Work Time</button>
+						<button class="btn col-xs-6 col-sm-6 col-md-6 col-lg-6 btn-primary" id="breakBtn">Switch to Break Time</button>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<button class="btn btn-success btn-block top-margin" id="restartBtn">Restart Timer</button>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+						<div class="col-md-5">
+								<label for="workTime">Work Time</label>
+								<input type="text" id="workTime" min=1 max=60 value="25" class="form-control">
+						</div>
+						<div class="col-md-5">
+								<label for="breakTime">Break Time</label>
+								<input type="text" id="breakTime" min=1 max=60 value="5" class="form-control">
+						</div>
+						<div class="col-md-2">
+								<label for="updateBtn">Update Timer</label>
+								<button class="btn btn-success btn-block" id="updateBtn"><span class="glyphicon glyphicon-transfer"></span></button>
+						</div>
+				</div>
+		</div>
+</div>

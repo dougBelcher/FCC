@@ -1,0 +1,29 @@
+script.js
+var user = prompt("Please enter your name").toUpperCase();
+switch(user) {
+    case 'DOUG':
+        console.log("Really, really...?");
+        var response = prompt("Are you sure").toUpperCase();
+        if (user == 'DOUG' && response == 'YES') {
+            console.log("Fine, but I have to go now");
+        } else {
+            console.log("If you're not sure, then neither am I");
+        }
+        break;
+    case 'GARTH':
+        console.log("Party on Garth!");
+        var day = prompt("What day is it Garth?").toUpperCase();
+        if (day == 'FRI' || day == 'SAT' ) {
+            console.log("Dude, let's do it")
+        } else if (day == 'SUN') {
+            console.log("Gotta hurry");
+        } else {
+            console.log("Sorry man, gotta crash");
+        }
+        break;
+    case 'TARA':
+        console.log("You are a true beauty");
+        break;
+    default:
+        console.log("Dude, you have got to be kidding");
+}

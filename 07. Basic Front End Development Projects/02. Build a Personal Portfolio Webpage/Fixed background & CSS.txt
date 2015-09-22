@@ -1,0 +1,67 @@
+HTML
+
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+<div id="four"></div>
+<div id="five"></div>
+<div id="six"></div>
+
+____________________________________________________________________
+CSS
+____________________________________________________________________
+div
+{
+    height: 400px;
+    width: 100%;
+    border-top: 1px solid #333;
+}
+
+#one
+{
+    background: url(https://photos.google.com/photo/AF1QipOR8UuvL2vxOHTXOOAfbATayfxpV5gFmjFiE2s0);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+}
+
+#two
+{
+    background: url(http://img01.static-nextag.com/image/GMC-Denali-Road-Bike/1/000/006/107/006/610700673.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+}
+
+#three
+{
+    background: url(http://images.buzzillions.com/images_products/09/01/k2-zed-2-0-bike_1032646_100.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+}
+
+#four
+{
+    background: url(http://image.made-in-china.com/3f2j00fCptclkasVob/Dirt-Bike-Off-Road-JD150GY-1-.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+}
+
+
+#five
+{
+    background: url(http://i00.i.aliimg.com/photo/v60/540927722/electric_bike_26inch_250w_CE.summ.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+}
+
+#six
+{
+    background: url(http://image.made-in-china.com/3f2j00vKbaBFozbEqR/Dirt-Bike-Xt90y-Xb-21-90CC-Red.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+}
