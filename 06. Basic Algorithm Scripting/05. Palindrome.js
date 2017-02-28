@@ -1,5 +1,5 @@
 function palindrome(str) {
-  str = str.replace(/[^a-zA-Z]/g, '').toLowerCase();
+  str = str.replace(/[\W_]/g, '').toLowerCase();
   return str == str.split('').reverse().join('').toLowerCase();
 }
 
