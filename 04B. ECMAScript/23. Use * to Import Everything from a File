@@ -1,0 +1,2 @@
+"use strict";
+import * as myStrings from "capitalize_strings";
